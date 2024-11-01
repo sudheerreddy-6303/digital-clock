@@ -1,0 +1,26 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+   justify-content: center;
+  
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+ .clock{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: repeating-linear-gradient(45deg,red,yellow 20%,green 100%);
+ }
